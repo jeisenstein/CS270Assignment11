@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-# create two Events
+# create three Events
 3.times do |i|
   Event.create(
       name: "Event #{i + 1}", 
